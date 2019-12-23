@@ -1,7 +1,7 @@
 package huego_test
 
 import (
-	"github.com/amimof/huego"
+	"github.com/martinrhoads/huego"
 	"testing"
 )
 
@@ -65,7 +65,7 @@ func TestGetConfig(t *testing.T) {
 
 func TestCreateUser(t *testing.T) {
 	b := huego.New(hostname, "")
-	u, err := b.CreateUser("github.com/amimof/huego#go test")
+	u, err := b.CreateUser("github.com/martinrhoads/huego#go test")
 	if err != nil {
 		t.Fatal(err)
 	} else {

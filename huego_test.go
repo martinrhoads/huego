@@ -2,7 +2,7 @@ package huego_test
 
 import (
 	"fmt"
-	"github.com/amimof/huego"
+	"github.com/martinrhoads/huego"
 	"github.com/jarcoal/httpmock"
 	"os"
 	"path"

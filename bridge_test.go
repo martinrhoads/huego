@@ -1,7 +1,7 @@
 package huego_test
 
 import (
-	"github.com/amimof/huego"
+	"github.com/martinrhoads/huego"
 	"strings"
 	"testing"
 	"fmt"
